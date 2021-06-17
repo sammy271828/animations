@@ -1,5 +1,10 @@
 '''
-A short animation
+A short animation depicting a family of meromorphic functions having a simple pole which is moving in a circle about two zeros. The code here is modified from that of
+the double pendulum simulation video which you can find here:
+
+https://youtu.be/n7JK4Ht8k8M
+https://github.com/maksimovichsam/DoublePendulumVideo
+
 '''
 
 class MovingPole(Scene):
