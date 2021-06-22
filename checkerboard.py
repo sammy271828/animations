@@ -57,12 +57,8 @@ class Icosahedron(ThreeDScene):
             j=x[1]
             k=x[2]
 
-            normal = np.cross(verts[j]-verts[i],verts[k]-verts[i])
             vertices = [verts[i], verts[j], verts[k]]
             centroid = (verts[i]+verts[j]+verts[k])/3
-
-            if np.dot(centroid,normal) < 0:
-                print(x)
 
             third = centroid
 
